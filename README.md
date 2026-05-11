@@ -54,8 +54,10 @@ git clone https://github.com/viru0909-dev/nyay-setu-working.git
 cd nyay-setu-working
 
 # 2. Setup Environment Variables
+# Copy the example file to .env at the repository root
 cp .env.example .env
-# Edit .env and add your GROQ_API_KEY and other keys
+# Open .env and add your GROQ_API_KEY and other required keys
+# (Required: GROQ_API_KEY, JWT_SECRET)
 
 # 3. Spin up the entire system
 docker-compose up --build
